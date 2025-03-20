@@ -1,0 +1,16 @@
+﻿Platforma;Microcontroller;Napájecí napětí;Logika UART (GPIO);Napětí GPIO;Počet HW UART;Počet ADC;Počet ADC kanálů;Počet DAC;Počet DAC kanálů;Počet PWM;Počet Digital IO;Rychlost CPU;Velikost Flash;Velikost SRAM;Bitová šířka;Rozlišení ADC;Rozlišení DAC;Poznámka
+STM32F103 (Blue Pill);STM32F103C8T6;3.3V;3.3V;3.3V;3;10;16;0;0;6;37;72 MHz;64 KB;20 KB;32bit;12bit;-;ARM Cortex-M3, běžné pro embedded aplikace.
+STM32F411 (Black Pill);STM32F411CEU6;3.3V;3.3V;3.3V;3;3;3;2;2;12;42;100 MHz;512 KB;128 KB;32bit;12bit;12bit;ARM Cortex-M4, vyšší výkon pro náročné aplikace.
+STM32F407;STM32F407VGT6;3.3V;3.3V;3.3V;6;3;16;2;2;16;82;168 MHz;512 KB;192 KB;32bit;12bit;12bit;ARM Cortex-M4, velmi výkonný pro aplikace s náročným výpočtem.
+ESP32;ESP32-WROOM-32;3.3V;3.3V;3.3V;3;18;18;2;2;16;34;240 MHz;4 MB;520 KB;32bit;12bit;8bit;Wi-Fi, Bluetooth, ARM Cortex-M4, pokročilé možnosti komunikace.
+ESP8266;ESP8266;3.3V;3.3V;3.3V;1;1;1;0;0;10;17;80 MHz;4 MB;160 KB;32bit;10bit;-;Wi-Fi, starší platforma, nižší výkon.
+Raspberry Pi 4;Broadcom BCM2711;5V;3.3V;3.3V;1;1;1;0;0;16;40;1.5 GHz;4 GB;4 GB;64bit;12bit;-;CPU Quad-Core ARM Cortex-A72, skvělá pro aplikace s vysokým výkonem.
+Raspberry Pi 3/2;Broadcom BCM2837/BCM2836;5V;3.3V;3.3V;1;1;1;0;0;16;26;1.2 GHz;1 GB;1 GB;64bit;12bit;-;CPU Quad-Core ARM Cortex-A53, nízký výkon ve srovnání s Pi 4.
+Raspberry Pi Pico;RP2040;3.3V;3.3V;3.3V;2;3;26;0;0;26;26;133 MHz;2 MB;264 KB;32bit;12bit;-;ARM Cortex-M0+, nízký výkon, vhodný pro embedded aplikace.
+Raspberry Pi Zero;Broadcom BCM2835;5V;3.3V;3.3V;1;1;1;0;0;16;26;1 GHz;512 MB;512 MB;32bit;10bit;-;CPU ARM1176JZF-S, pro základní aplikace a projektování.
+Seeeduino XIAO;ATSAMD21G18;3.3V;3.3V;3.3V;1;12;12;1;1;11;14;48 MHz;256 KB;32 KB;32bit;12bit;-;Malá platforma s nízkou spotřebou, vhodná pro jednoduché aplikace.
+Wio Terminal;ATSAMD51J20;3.3V;3.3V;3.3V;1;16;16;1;1;24;14;120 MHz;512 MB;192 KB;32bit;12bit;-;3.3V systém, má i USB-C pro napájení a komunikaci.
+Arduino Uno;ATmega328P;5V;5V;5V;1;6;6;0;0;6;14;16 MHz;32 KB;2 KB;8bit;10bit;-;Základní deska pro začátečníky, 5V logika pro UART a GPIO piny.
+Arduino Mega 2560;ATmega2560;5V;5V;5V;4;16;16;0;0;15;54;16 MHz;256 KB;8 KB;8bit;10bit;-;Velká deska pro pokročilé projekty, více pinů a rozhraní.
+Arduino Leonardo;ATmega32u4;5V;5V;5V;1;12;12;1;1;7;20;16 MHz;32 KB;2.5 KB;8bit;10bit;-;USB podpora, vhodné pro komunikaci jako zařízení.
+;;;;;;;;;;;;;;;;;;
